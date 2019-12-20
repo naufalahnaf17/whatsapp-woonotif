@@ -22,7 +22,7 @@ class MessageController extends Controller
       $client = new Client();
 
       // Make Raw Content In Body With Guzzle
-      $token = '15a5475dddf14b76254be32384b350ed2c416554ca8eb67c';
+      $token = 'cd89a8c837380f06ed5f8bbf3a3759b3becd577cc5979586';
       $array = [
         'phone_no' => $request->input('no'),
         'key' => $token,
